@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <script src="scripts/calculos.js"></script>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div class="container">
+    <h1 class="titulo">CALCULADORA DE IMC</h1>
+
+    <div class="calculadora">
+        <input type="number" id="peso" placeholder="Peso (kg)">
+        <input type="number" id="altura" placeholder="Altura (m)">
+        
+        <br>
+        <button onclick="calcularIMC()">Calcular</button>
+    
+        <p id="resultadoIMC"></p>
+        <p id="classificacao"></p>
+        
+    </div>
+</div>
+</body>
+
+    <footer class="rodape">
+    <p>&copy 2025 | desenvolvido por Davi Castilho</p>
+    </footer>
+</html>
